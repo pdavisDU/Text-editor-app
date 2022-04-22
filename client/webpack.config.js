@@ -8,6 +8,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
+    target: 'node',
     
     mode: 'development',
     entry: {
